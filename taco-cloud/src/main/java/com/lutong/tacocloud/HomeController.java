@@ -1,4 +1,4 @@
-package com.lutong.controller;
+package com.lutong.tacocloud;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +8,6 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
 
-        return "home1";
+        return "home";
     }
 }
